@@ -1,0 +1,33 @@
+div {
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 25px;
+  margin-left: 50px;
+  width: 1400px;
+  height: 750px;
+  border-width: 5px;
+  border-color: red;
+  border-style: solid;
+}
+.circle {
+  display: none;
+  width: 100px;
+  border-radius: 50px;
+  height: 100px;
+  background-color: green;
+  color: yellow;
+  position: absolute;
+}
+
+#replay {
+  width: 75px;
+  border-radius: 20px;
+  height: 50px;
+  background-color: black;
+  color: aliceblue;
+}
+
+#scoreinput {
+  justify-content: center;
+  align-items: center;
+}
